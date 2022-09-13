@@ -20,11 +20,11 @@ for (let i = 1; i < 1000; i++) {
     // xx = xx/2;
 
     if (i == 4 || i == 9 || i == 8 || i == 17 || i == 136 || i == 6 || i == 6 || i == 5 || i == 120 || i == 26 || i == 3 || i == 13 || i == 147) {
-        xx = xx % 30;
-        xx += 65;
+        xx = xx % 35;
+        xx += 60;
     } else {
-        xx = xx % 78;
-        xx += 8;
+        xx = xx % 72;
+        xx += 22;
     }
     const as = "percent-bar-" + i;
     const asd = "percent-txt-" + i;
