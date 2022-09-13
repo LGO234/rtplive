@@ -1,0 +1,130 @@
+body {
+
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 300;
+      font-size: 14px;
+}
+
+
+.wrapper .left,
+.wrapper .right {
+      width: 100%;
+      height: 50vh;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+
+.wrapper .image {
+      width: 100%;
+      height: 100%;
+      background-size: 50%;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 0;
+      left: 0;
+}
+
+
+.logo {
+      background: url('images/LGO234_logo-removebg-preview.png');
+      background-color: rgba(0, 0, 0, 0.871);
+      
+}
+
+
+.tentang {
+      background-color: goldenrod;
+}
+
+.header {
+  display: inline-block;
+  position: fixed;
+  left: 10px;
+  top: 15px;
+  width: 100%;
+  color: white;
+  text-align: left;
+
+}
+
+.header a {
+      color:white;
+      font-size: 18px;
+      padding: 10px;
+}
+
+
+.header a:hover {
+      color: gold;
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+
+.wrapper .caption {
+      position: relative;
+      z-index: 10;
+      color: #fff;
+      text-align: center;
+      height: 360px;
+      margin-left: 15px;
+      margin-right: 15px;
+}
+
+
+.wrapper .caption h1 {
+      text-transform: uppercase;
+      letter-spacing: 0.25em;
+      margin-bottom:1em;
+}
+
+
+.wrapper .caption .button {
+      background: #000;
+      color: #fff;
+      padding: 1em 2em;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1em;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      transition: 0.25s ease all;
+      border-radius: 5px;
+}
+
+
+.wrapper .caption .button:hover {
+      background: #ffd346;
+      color: #000;
+}
+
+
+
+
+@media screen and (min-width:1200px) {
+
+      .wrapper {
+            display: flex;
+      }
+
+
+      .wrapper .left,
+      .wrapper .right {
+            width: 50%;
+            height: 100vh;
+      }
+
+}
