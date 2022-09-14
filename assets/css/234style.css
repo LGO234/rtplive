@@ -172,7 +172,7 @@ a:hover {
 
 .img-zoom {
     transition: all 0.45s ease-in-out;
-    height: 141px;
+    height: 140px;
 }
 
 .hover-btn:hover {
@@ -199,6 +199,11 @@ a:hover {
 .hover-btn {
     height: 77%;
     overflow-y: hidden;
+
+}
+
+h6 {
+    font-size: 0.7rem;
 
 
 }

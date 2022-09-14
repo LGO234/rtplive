@@ -127,6 +127,10 @@ a:hover {
     align-items: center;
 }
 
+h6 {
+    font-size: 0.7rem;
+}
+
 }
 
 .slot-sidebar-nav {
