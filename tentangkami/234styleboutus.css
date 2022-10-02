@@ -54,8 +54,8 @@ body {
 
 .header a {
       color:white;
-      font-size: 18px;
-      padding: 10px;
+      font-size: 15px;
+      padding: 5px;
 }
 
 
@@ -126,5 +126,6 @@ body {
             width: 50%;
             height: 100vh;
       }
+
 
 }
