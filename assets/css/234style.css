@@ -17,14 +17,14 @@ body {
     /* background-size: 100%; */
 }
 
-.bg{
+.bg video{
     width: 100%;
     height: 100%;
     position: fixed;
     left: 0;
     top: 0;
     z-index: -100;
-    opacity: .5;
+    object-fit: cover;
 }   
 
 h1 {
