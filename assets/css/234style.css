@@ -17,7 +17,7 @@ body {
     /* background-size: 100%; */
 }
 
-.bg video{
+.bg video {
     width: 100%;
     height: 100%;
     position: fixed;
@@ -25,6 +25,7 @@ body {
     top: 0;
     z-index: -100;
     object-fit: cover;
+    
 }   
 
 h1 {
