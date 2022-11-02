@@ -87,12 +87,14 @@ a:hover {
     
 }
 
+
 .lgogo img {
-    width: 10%;
+    width: 8%;
     padding: 10px;
     align-items: center;
     opacity: 0.5;
 }
+
 
 .announcement {
     width: 100%;
