@@ -97,7 +97,7 @@ a:hover {
 
 
 .announcement {
-   /* width: 100%;  */
+    width: 100%;
     padding: 7px;
     color: white;
     position: relative;
@@ -109,7 +109,10 @@ a:hover {
 .fa-solid {
     font-size: 20px;
 }
+@media (max-width: 500px) {
 
+
+}
 
 @media (max-width: 772px) {
 .card {
@@ -132,11 +135,6 @@ a:hover {
 
 h6 {
     font-size: 0.7rem;
-}
-
-.announcement {
-    width: 100%;
-
 }
 
 .table {
