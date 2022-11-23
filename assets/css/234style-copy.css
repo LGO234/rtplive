@@ -139,6 +139,10 @@ h6 {
 
 }
 
+.table {
+    font-size: 0.75rem;
+}
+
 }
 
 .slot-sidebar-nav {
@@ -213,3 +217,53 @@ h5 {
     color: gold;
 }
 
+/*Tulisan ngarang indah*/
+.container-indah {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    /* width: 75%;  */
+  }
+  
+  table.ngarang {
+    width: 100%;
+    text-align: left;
+    color: white;
+    border-collapse: collapse;
+    border-radius: 10px;
+    box-shadow: rgba(234, 168, 0, 0.35) 0px 5px 15px;
+    backdrop-filter: blur(4px);
+  
+  }
+  
+  table.ngarang tr {
+    border-radius: 10px;
+  }
+  
+  table.ngarang td, table.ngarang th {
+    padding: 10px 5px 10px;
+    border-collapse: collapse;
+    
+  }
+  
+  table.ngarang th {
+    text-align: center;
+    font-weight: lighter;
+    border-radius: 10px;
+  }
+  
+  table.ngarang tbody td {
+    color: #bfbfbf;
+  }
+
+  .table td, .table th {
+    border-top: none;
+    vertical-align: middle;
+  }
+  
+  .table thead th {
+    border-bottom: none;
+
+    }
+  
